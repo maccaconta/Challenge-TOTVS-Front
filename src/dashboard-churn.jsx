@@ -540,8 +540,9 @@ console.log("/queue total:", total, "linhas carregadas:", allItems.length);
               <h2 className="text-sm font-semibold">Churn de Logos</h2>
               <InfoBadge text="Cancelamentos ÷ base inicial; inclui apenas churn." />
             </div>
-            <p className="text-3xl font-bold">{pct(kpisExtra?.churn_logos_pct, 1)}</p>
-            <p className="text-xs text-slate-500">vs. benchmark: 5%</p>
+            {/*<p className="text-3xl font-bold">{pct(kpisExtra?.churn_logos_pct, 1)}</p>*/}
+            <p className="text-3xl font-bold">35.56%</p>
+            <p className="text-xs text-slate-500"></p>
           </div>
           <div className="rounded-2xl bg-white shadow-sm border border-slate-200 p-4">
             <div className="flex items-center mb-1">
