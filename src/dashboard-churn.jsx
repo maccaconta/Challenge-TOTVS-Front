@@ -537,7 +537,7 @@ console.log("/queue total:", total, "linhas carregadas:", allItems.length);
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <div className="rounded-2xl bg-white shadow-sm border border-slate-200 p-4">
             <div className="flex items-center mb-1">
-              <h2 className="text-sm font-semibold">Churn de Logos</h2>
+              <h2 className="text-sm font-semibold">Churn</h2>
               <InfoBadge text="Cancelamentos ÷ base inicial; inclui apenas churn." />
             </div>
             {/*<p className="text-3xl font-bold">{pct(kpisExtra?.churn_logos_pct, 1)}</p>*/}
